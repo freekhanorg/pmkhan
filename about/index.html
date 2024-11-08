@@ -1,0 +1,176 @@
+
+
+
+  
+  
+    
+    
+    
+    
+    <script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><section class="featured">
+      <a class="featured-card" href="/prisoner-number-804/" style="background-color: #0e0d0d; background-image: url(/prisoner-number-804/freekhan_hu1f6ff40bf773d9b8df443a823106ec08_55487_filter_10933573887768330671.jpg);">
+        <div class="overlay-content">
+          <h2>Prisoner #804</h2>
+          
+          
+          <div class="clock-overlay">
+            
+            <div class="arrest-time">Ex-Prime Minister Imran Khan, arrested on 9th May 2023, 19:00 - Islamabad High Court</div>
+
+            
+            <div class="time-container">
+                <div class="time-unit">
+                    <div class="value" id="seconds">0</div>
+                    <div class="label">Seconds</div>
+                </div>
+                <div class="time-unit">
+                    <div class="value" id="minutes">0</div>
+                    <div class="label">Minutes</div>
+                </div>
+                <div class="time-unit">
+                    <div class="value" id="hours">0</div>
+                    <div class="label">Hours</div>
+                </div>
+                <div class="time-unit">
+                    <div class="value" id="days">0</div>
+                    <div class="label">Days</div>
+                </div>
+                <div class="time-unit">
+                    <div class="value" id="weeks">0</div>
+                    <div class="label">Weeks</div>
+                </div>
+                <div class="time-unit">
+                    <div class="value" id="months">0</div>
+                    <div class="label">Months</div>
+                </div>
+                <div class="time-unit">
+                    <div class="value" id="years">0</div>
+                    <div class="label">Years</div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </a>
+    </section>
+  
+
+
+<style>
+     
+    .featured-card {
+        position: relative;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 20px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .overlay-content {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+    }
+
+    .clock-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+     
+    .clock-overlay .arrest-time {
+        font-size: 0.9em;
+        color: #cccccc;
+        margin-bottom: 15px;
+    }
+
+     
+    .clock-overlay .time-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        max-width: 80%;
+    }
+
+     
+    .clock-overlay .time-unit {
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 10px 15px;
+        background-color: rgba(255, 255, 255, 0.1);
+        color: #00ffcc;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        transition: all 0.2s;
+        min-width: 130px;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .clock-overlay .time-unit .value {
+        font-size: 2em;
+        font-weight: bold;
+        white-space: nowrap;
+    }
+
+    .clock-overlay .time-unit .label {
+        font-size: 0.9em;
+        color: #cccccc;
+        margin-top: 5px;
+    }
+
+     
+    @media (max-width: 600px) {
+        .clock-overlay .time-unit {
+            font-size: 1.3em;
+            padding: 8px 10px;
+            min-width: 100px;
+        }
+        .clock-overlay .time-unit .value {
+            font-size: 1.6em;
+        }
+    }
+</style>
+
+<script>
+    function updateTime() {
+        const startTime = new Date('May 9, 2023 19:00:00').getTime();
+        const now = new Date().getTime();
+        const elapsed = now - startTime;
+
+        
+        const totalSeconds = Math.floor(elapsed / 1000);
+        const totalMinutes = Math.floor(elapsed / (1000 * 60));
+        const totalHours = Math.floor(elapsed / (1000 * 60 * 60));
+        const totalDays = Math.floor(elapsed / (1000 * 60 * 60 * 24));
+        const totalWeeks = Math.floor(elapsed / (1000 * 60 * 60 * 24 * 7));
+        const totalMonths = Math.floor(elapsed / (1000 * 60 * 60 * 24 * 30.44));
+        const totalYears = Math.floor(elapsed / (1000 * 60 * 60 * 24 * 365.25));
+
+        
+        const formatNumber = (number) => number.toLocaleString();
+
+        document.getElementById('seconds').innerText = formatNumber(totalSeconds);
+        document.getElementById('minutes').innerText = formatNumber(totalMinutes);
+        document.getElementById('hours').innerText = formatNumber(totalHours);
+        document.getElementById('days').innerText = formatNumber(totalDays);
+        document.getElementById('weeks').innerText = formatNumber(totalWeeks);
+        document.getElementById('months').innerText = formatNumber(totalMonths);
+        document.getElementById('years').innerText = formatNumber(totalYears);
+    }
+
+    setInterval(updateTime, 1000);
+    updateTime();
+</script>
+

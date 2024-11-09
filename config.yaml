@@ -1,0 +1,21 @@
+# config.yaml for freekhan.org
+baseURL: "https://freekhan.org"
+languageCode: "en-GB"
+defaultContentLanguage: "en"
+title: "FREE KHAN"
+theme: "free"
+
+menu:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 1
+
+params:
+  description: "FreeKhan.org advocates for the release of Ex-Prime Minister Imran Khan, documenting his time in detention and the global support for his freedom."
+  favicons:
+    svg: "/favicon2.svg"
+    png: "/favicon2.png"
+    apple: "/favicon2.png"
+ 
+dateFormat: "08 Nov 2023"

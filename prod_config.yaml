@@ -1,0 +1,10 @@
+# prod_config.yml
+build:
+  publishDir: "public"
+  command: "hugo --minify"
+
+environment:
+  HUGO_ENV: "production"
+
+cname:
+  domain: "freekhan.org"

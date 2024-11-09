@@ -6,10 +6,5 @@
     <description>Recent content in Categories on FREE KHAN</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-GB</language><atom:link href="https://freekhan.org/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Animals</title>
-      <link>https://freekhan.org/categories/animals/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://freekhan.org/categories/animals/</guid><description>Categories can also have custom titles and descriptions. The description of the Animals category lives in `content/categories/animals/_index.md`.</description></item>
   </channel>
 </rss>

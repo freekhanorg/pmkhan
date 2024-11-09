@@ -2,20 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://freekhan.org/archive/</loc>
+    <lastmod>2024-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://freekhan.org/creators/</loc>
+    <lastmod>2024-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://freekhan.org/</loc>
+    <lastmod>2024-11-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://freekhan.org/about/</loc>
     <lastmod>2024-11-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://freekhan.org/get-involved/</loc>
     <lastmod>2024-11-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://freekhan.org/</loc>
-    <lastmod>2024-11-08T00:00:00+00:00</lastmod>
+    <loc>https://freekhan.org/archive/09-05-2023/</loc>
+    <lastmod>2023-05-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://freekhan.org/archive/example-submission/</loc>
+    <lastmod>2023-05-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://freekhan.org/categories/</loc>
-  </url><url>
-    <loc>https://freekhan.org/creators/</loc>
-  </url><url>
-    <loc>https://freekhan.org/facts/</loc>
   </url><url>
     <loc>https://freekhan.org/tags/</loc>
   </url><url>

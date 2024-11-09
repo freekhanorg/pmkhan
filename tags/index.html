@@ -70,21 +70,33 @@
 <style>
    
   .footer-links {
-    margin-top:0px;
-      text-align: center;
-      padding: 2px;
-      font-size: 1em;
-      color: #fff;
+    text-align: center;
+    padding: 6px;
+    font-size: 0.85em;
+    color: #fff;
   }
-  
+
   .footer-links a {
-      color: #00ffcc;
-      text-decoration: none;
-      margin: 0 5px;
+    color: #00ffcc;
+    text-decoration: none;
+    margin: 0 3px;
+    font-weight: 500;
   }
 
   .footer-links a:hover {
-      text-decoration: underline;
+    text-decoration: underline;
+    color: #ffcc00;
+  }
+
+   
+  @media (max-width: 500px) {
+    .footer-links {
+      font-size: 0.75em;  
+      padding: 4px;
+    }
+    .footer-links a {
+      margin: 0 2px;
+    }
   }
 </style>
 

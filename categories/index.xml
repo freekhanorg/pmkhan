@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on FREE KHAN</title>
-    <link>https://freekhan.org/categories/</link>
+    <link>https://freekhan.netlify.app/categories/</link>
     <description>Recent content in Categories on FREE KHAN</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-GB</language><atom:link href="https://freekhan.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-GB</language><atom:link href="https://freekhan.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
